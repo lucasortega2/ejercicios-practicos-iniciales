@@ -1,3 +1,48 @@
+header {
+    font-family: sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+}
+
+.ul-container-1 {
+    width: max-content;
+    display:flex;
+    text-decoration: none;
+
+}
+.ul-container-2 {
+    margin-right: 50px;
+    width: max-content;
+    display:flex;
+}
+
+ul li  {
+    align-self: center;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a img {
+    align-self: center;
+    width: 10px;
+}
+
+
+
+
+
+
+
 table {
     border: 1px solid #000;
 }
