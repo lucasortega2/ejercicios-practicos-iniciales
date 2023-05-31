@@ -30,15 +30,20 @@ ul li  {
 }
 
 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: #000;
+    height: 100%;
+    width: 100%;
 }
 
 a img {
     width: 10px;
 }
 
-header nav ul li:hover {
+header nav ul a:hover {
     color: #000;
     background-color: #999;
     transition: .8s;
